@@ -64,6 +64,7 @@ img {
 }
 .header{
   border-bottom: 1px solid #E7E9FC;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-container {
   display: flex;
@@ -134,7 +135,14 @@ img {
 }
 .hero-block {
   background-color: var(--dark-text-color);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/imagesmain/herobg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
+  margin-right: auto;
+  margin-left: auto;
+max-width: 1140px;
   padding-top: 188px;
   padding-bottom: 188px;
   text-align: center;
